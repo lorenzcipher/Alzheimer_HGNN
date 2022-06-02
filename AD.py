@@ -9,11 +9,11 @@ import pandas as pd
 # Packages
 from streamlit import caching
 import time
-pip install streamlit-option-menu
+
 
 from simulate_data import simulate_data, simulate_labels
 
-from streamlit_option_menu import option_menu
+
 import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as html
