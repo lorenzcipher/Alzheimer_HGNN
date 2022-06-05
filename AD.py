@@ -46,7 +46,7 @@ def main():
         col1, col2 = st.columns( [0.8, 0.2])
         with col1:               # To display the header text using css style
             st.markdown(""" <style> .font {
-            font-size:35px ; font-family: 'Cooper Black'; color: #FF9633;} 
+            font-size:35px ; font-family: 'BodoniFLF'; color: #FF9633;} 
             </style> """, unsafe_allow_html=True)
             st.markdown('<p class="font">About Our Project</p>', unsafe_allow_html=True)    
         with col2:               # To display brand log
@@ -64,7 +64,7 @@ def main():
         col1, col2 = st.columns( [0.8, 0.2])
         with col1:               # To display the header text using css style
             st.markdown(""" <style> .font {
-            font-size:35px ; font-family: 'Cooper Black'; color: #FF9633;} 
+            font-size:35px ; font-family: 'BodoniFLF'; color: #FF9633;} 
             </style> """, unsafe_allow_html=True)
             st.markdown('<p class="font">Upload fMRI data...</p>', unsafe_allow_html=True)
             
@@ -82,7 +82,7 @@ def main():
     elif selected == "Morphological Data":
         #Add a file uploader to allow users to upload their project plan file
         st.markdown(""" <style> .font {
-        font-size:35px ; font-family: 'Cooper Black'; color: #FF9633;} 
+        font-size:35px ; font-family: 'BodoniFLF'; color: #FF9633;} 
         </style> """, unsafe_allow_html=True)
         st.markdown('<p class="font">Upload your project plan</p>', unsafe_allow_html=True)
 
@@ -94,7 +94,7 @@ def main():
             st.write('---') 
     elif selected == "Model":
         st.markdown(""" <style> .font {
-        font-size:35px ; font-family: 'Cooper Black'; color: #FF9633;} 
+        font-size:35px ; font-family: 'BodoniFLF'; color: #FF9633;} 
         </style> """, unsafe_allow_html=True)
         st.markdown('<p class="font">Alzheimer disease Dataset Analysis</p>', unsafe_allow_html=True)
         
