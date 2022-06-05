@@ -33,8 +33,8 @@ def main():
             icons=['house','eye','kanban','sliders','activity','gear'], default_index=0)
 
     
-    logo = Image.open(r'C:\Users\FATEH\Downloads\HCAE-master\HCAE-master\Brain-Logo.png')
-    profile = Image.open(r'C:\Users\FATEH\Downloads\HCAE-master\HCAE-master\image_bg.jpg')
+    logo = Image.open(r'Brain-Logo.png')
+    profile = Image.open(r'image_bg.jpg')
 
 
     if selected == "Home":
